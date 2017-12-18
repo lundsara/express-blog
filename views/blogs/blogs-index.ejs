@@ -1,0 +1,31 @@
+<% include ../partials/boilerplate %>
+<% include ../partials/header.ejs %>
+
+<main>
+
+
+  <div id='welcome'>
+    <div id="me"><span class="highlight">Who we are...</span><br/> We are<span class="highlight"> Into the Sweat.</span> We are obsessive about health, nutrition and beauty.</div>
+  <a id='welcomea' href="/blogs/new">Add Your Post</a>
+  </div>
+  <p> Articles.. </p>
+
+
+  <% for (let blogs of data) { %>
+    <div class='blog'>
+    <br>
+      <p> <%=blog.title %></p>
+      <br>
+      <a href='/blogs/<%= blog.id%>'>Read more!</a>
+    </div>
+  <% } %>
+
+
+
+
+
+  <% include ../partials/footer %>
+
+  </main>
+</body>
+</html>

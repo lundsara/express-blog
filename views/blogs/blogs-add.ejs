@@ -1,0 +1,25 @@
+<% include ../partials/boilerplate %>
+<% include ../partials/header.ejs %>
+
+
+
+<div id='add'> Add your post below! </div>
+
+
+<form method='POST' action='/blogs/'>
+  <input class='white' name='title' type='text' placeholder='Title' />
+  <input class='white' name='img' type='text' placeholder='Image URL' />
+  <input class='white' name='issuetime' type='text' placeholder='MM/DD/YYYY' />
+  </br>
+  <input class='white' name='category' type='text' placeholder='Category'/>
+  <input class='white' name='author' type='text' placeholder='Author' />
+  <textarea class='long' name='entry' type='text' placeholder='Blog Entry'></textarea>
+</br>
+
+  <input type='submit' value='Post' />
+</form>
+
+
+
+
+  <% include ../partials/footer %>

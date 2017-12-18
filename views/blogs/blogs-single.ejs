@@ -1,0 +1,33 @@
+<% include ../partials/boilerplate %>
+<% include ../partials/header.ejs %>
+
+
+<div class='blog'>
+<div id=container>
+
+  <p id='interest'>  Update or <br>remove your blog<br> below! </p>
+  </div>
+  </div>
+  <p> Title: <%= data.title %></p>
+  <br>
+  <p> Author: <%= data.issuetime %></p>
+  <br>
+  <p> Image: <%= data.category %></p>
+  <br>
+  <p> Entry: "<%= data.entry %>"</p>
+
+  <br>
+
+  <div id='buttons'>
+  <a href="/blogs/<%= data.id %>/edit"> Edit Post </a>
+  <form action="/blogs/<%= data.id %>?_method=Delete" method="Post">
+    <input id='delete' type="Submit" value="Delete"/>
+  </form>
+  <a href='/blogs/'>See all Articles</a>
+  </div>
+</div>
+
+
+
+
+<% include ../partials/footer %>

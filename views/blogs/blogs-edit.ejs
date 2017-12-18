@@ -1,0 +1,17 @@
+<% include ../partials/boilerplate %>
+<% include ../partials/header.ejs %>
+
+
+<div id='smallcircleone'><p id='edittitle'>Edit your <br>blog below...</p> </div>
+
+<form method='POST' action='/blogs/<%= data.id %>?_method=PUT'>
+  <input class='white' name='classname' type='text' value='<%= data.title %>' />
+  <input class='white' name='time' type='text' value='<%= data.issueTime %>' />
+  <input class='white' name='category' type='text' value='<%= data.category %>' />
+  <input class='long' name='entry' type='text' value='<%= data.entry %>' />
+
+<br>
+  <input type='submit' value='Post it!' />
+</form>
+
+<% include ../partials/footer %>
