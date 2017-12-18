@@ -200,14 +200,13 @@ input {
   text-decoration: none;
   letter-spacing: 1px;
   font-weight: bold;
-  background-color: #f5e3e7;
   color: black;
   font-size: 20px;
   padding: 12px;
   box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
   border-radius: 5px;
   text-decoration: none;
-  width: 180px;
+  width: 100px;
   height: 55px;
   font-size: 15px;
   border: none;
@@ -256,10 +255,8 @@ textarea{
 
 }
 
-
-#delete:hover {
-    background-color: #9999FF;
-    transition: all ease-in-out .3s;
+#delete{
+  font-family: 'Rubik', sans-serif;
 
 }
 
@@ -323,4 +320,22 @@ textarea{
 
 #buttons{
   margin-top: -200px;
+}
+
+.list{
+  height: 100%;
+  margin-bottom: 300px;
+}
+a{
+  color: rgba(0,0,0,0.54);
+}
+#delete{
+  font-family: 'Rubik', sans-serif;
+    background:none;
+  border:none;
+  box-shadow: none;
+  text-decoration: underline;
+padding: 0;
+margin-top: -18px;
+
 }
