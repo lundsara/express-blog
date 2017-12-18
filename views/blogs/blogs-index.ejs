@@ -10,15 +10,17 @@
   </div>
 
 
-  <ul>
-  <% for (let entry of blog) { %>
-<li>
-      <p> "<%= blog.title %>"</p>
 
-      <a href='/blogs/<%= blog.id%>'>Read more!</a>
-    </li>
+
+    <% for (let blogs of blog) { %>
+    <div class='blog_snippet'>
+    <br>
+    <img id="my_img" src="<%= blogs.img %>" alt="blog_img">
+      <p> "<%= blogs.title %>"</p>
+      <br>
+      <a href='/blogs/<%= blogs.id%>'>Read More!</a>
+    </div>
   <% } %>
-  </ul>
 
 
 
