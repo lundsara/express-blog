@@ -22,9 +22,9 @@ module.exports = {
   index(req, res, next) {
     console.log('in controller.index');
     blogDB.findAll()
-      .then((blog) => {
+      .then((blogs) => {
         console.log(blogs);
-        res.locals.blog = blog;
+        res.locals.blogs = blogs;
         next();
       })
       .catch(err => next(err));
