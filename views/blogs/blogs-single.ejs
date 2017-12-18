@@ -5,22 +5,25 @@
 <div class='blog'>
 <div id=container>
 
-  <p id='interest'>  Update or <br>remove your blog<br> below! </p>
   </div>
   </div>
-  <p> Title: <%= data.title %></p>
+  <img id="my_img" src="<%= blog.img %>" alt="blog_img">
   <br>
-  <p> Author: <%= data.issuetime %></p>
+  <p> <%= blog.title %></p>
   <br>
-  <p> Image: <%= data.category %></p>
+  <p> Date: <%= blog.issuetime %></p>
   <br>
-  <p> Entry: "<%= data.entry %>"</p>
+  <p> Author: <%= blog.author %></p>
+  <br>
+  <p> Category: <%= blog.category %></p>
+  <br>
+  <p id="entry">  "<%= blog.entry %>"</p>
 
   <br>
 
   <div id='buttons'>
-  <a href="/blogs/<%= data.id %>/edit"> Edit Post </a>
-  <form action="/blogs/<%= data.id %>?_method=Delete" method="Post">
+  <a href="/blogs/<%= blog.id %>/edit"> Edit Post </a>
+  <form action="/blogs/<%= blog.id %>?_method=Delete" method="Post">
     <input id='delete' type="Submit" value="Delete"/>
   </form>
   <a href='/blogs/'>See all Articles</a>

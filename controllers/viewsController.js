@@ -13,35 +13,35 @@ module.exports = {
   showHome(req, res) {
     console.log('in showHome function');
     res.render('blogs/blogs-index', {
-      data: res.locals.blog,
+     blog: res.locals.blog,
     });
   },
 
 //method to produce view of blogs
   showBlogs(req, res) {
     console.log('in showBlogs function');
-     res.render('blogs/blogs-index', {
-      data: res.locals.blog,
+     res.redirect('blogs/blogs-index', {
+      blog: res.locals.blog,
     });
   },
 
     showBeautyBlogs(req, res) {
     console.log('in showBlogs function');
      res.render('blogs/blogs-beauty', {
-      data: res.locals.blog,
+      blog: res.locals.blog,
     });
   },
 
     showHealthBlogs(req, res) {
     console.log('in showBlogs function');
      res.render('blogs/blogs-health', {
-      data: res.locals.blog,
+      blog: res.locals.blog,
     });
   },
     showFitnessBlogs(req, res) {
     console.log('in showBlogs function');
      res.render('blogs/blogs-sweat', {
-      data: res.locals.blog,
+      blog: res.locals.blog,
     });
   },
 
@@ -49,15 +49,17 @@ module.exports = {
   showOne(req, res) {
     console.log(res.locals)
     res.render('blogs/blogs-single', {
-      data: res.locals.blog,
+      blog: res.locals.blog,
 
     });
   },
 
 //method handle view of creating a new blog
   handleCreate(req, res) {
-    res.redirect('/blogs');
-  },
+    res.render('blogs/blogs-single', {
+
+  });
+ },
 
 //method direct view for editing a selected blog
   handleUpdate(req, res) {
@@ -77,7 +79,7 @@ module.exports = {
 //method to produce form to edit blogs
   showEditForm(req, res) {
     res.render('blogs/blogs-edit', {
-      data: res.locals.blog,
+      blog: res.locals.blog,
   });
 },
 

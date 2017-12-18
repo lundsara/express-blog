@@ -32,7 +32,7 @@ app.use('/blogs', blogsRouter);
 
 app.get('/', (req,res) => res.render('blogs/blogs-index', {
  message:'This is my Good Sweat index page',
- data:[]
+ blog:[]
 }));
 
 

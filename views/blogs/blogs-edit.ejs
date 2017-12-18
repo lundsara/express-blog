@@ -4,11 +4,11 @@
 
 <div id='smallcircleone'><p id='edittitle'>Edit your <br>blog below...</p> </div>
 
-<form method='POST' action='/blogs/<%= data.id %>?_method=PUT'>
-  <input class='white' name='classname' type='text' value='<%= data.title %>' />
-  <input class='white' name='time' type='text' value='<%= data.issueTime %>' />
-  <input class='white' name='category' type='text' value='<%= data.category %>' />
-  <input class='long' name='entry' type='text' value='<%= data.entry %>' />
+<form method='POST' action='/blogs/<%= blog.id %>?_method=PUT'>
+  <input class='white' name='classname' type='text' value='<%= blog.title %>' />
+  <input class='white' name='time' type='text' value='<%= blog.issueTime %>' />
+  <input class='white' name='category' type='text' value='<%= blog.category %>' />
+  <input class='long' name='entry' type='text' value='<%= blog.entry %>' />
 
 <br>
   <input type='submit' value='Post it!' />

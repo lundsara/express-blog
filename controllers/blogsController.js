@@ -9,11 +9,11 @@ module.exports = {
   makeEmptyBlog(req, res) {
     res.json({
       id:  null,
-      title: '',
-      img:  '',
-      issuetime: '',
-      category:  '',
-      author:  '',
+      title: null,
+      img:  null,
+      issuetime: null,
+      category:  null,
+      author:  null,
       entry: null,
     });
   },
