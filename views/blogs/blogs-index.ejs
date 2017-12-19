@@ -2,12 +2,8 @@
 <% include ../partials/header.ejs %>
 
 <main>
+<div id="page-container">
 
-
-  <div id='welcome'>
-    <div id="me"><span class="highlight">Who we are...</span><br/> We are<span class="highlight"> Into the Sweat.</span> We are obsessive about health, nutrition and beauty.</div>
-  <a id='welcomea' href="/blogs/new">Add Your Post</a>
-  </div>
 
 <div class="list">
 
@@ -16,12 +12,33 @@
     <div class='blog_snippet'>
     <br>
     <img id="my_img" src="<%= blogs.img %>" alt="blog_img">
-      <p> <%= blogs.title %></p>
-      <br>
-      <a href='/blogs/<%= blogs.id%>'>Read More!</a>
+      <p class="blog-title"> <%= blogs.title %></p>
+      <p class="blog-subtitle"> <%= blogs.category %>
+      <a  class="line" href='/blogs/<%= blogs.id%>'>| READ MORE></a></p>
+    <hr class="small-hr">
     </div>
   <% } %>
 
+  </div>
+
+  <div class="top-picks">
+  <p class="column-title">Top Posts</p>
+      <% for (let blogs of blog) { %>
+    <div class='blog_snippet'>
+    <br>
+    <img id="my_img" src="<%= blogs.img %>" alt="blog_img">
+      <p class="blog-title"> <%= blogs.title %></p>
+      <p class="blog-subtitle"> <%= blogs.category %>
+      <a  class="line" href='/blogs/<%= blogs.id%>'>| READ MORE></a></p>
+    <hr class="small-hr">
+    </div>
+  <% } %>
+
+  </div>
+    <div id='temp'>
+  <a id="lined" id='welcomea' href="/blogs/new">Add Your Post</a>
+
+  </div>
   </div>
 
 

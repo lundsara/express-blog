@@ -1,36 +1,60 @@
 <% include ../partials/boilerplate %>
 <% include ../partials/header.ejs %>
 
+<div id="page-container">
+<div class='single-view'>
 
-<div class='blog'>
-<div id=container>
-
+    <div class="blog-title">
+      <p>MAIN//<%= blog.category %>/<%= blog.title %></p>
+      <%= blog.title %>
+    </div>
+      <br>
+    <img id="my_img" src="<%= blog.img %>" alt="blog_img">
+      <br>
+  <div class="blog-subtitle">
+    <span class="sub"> By <%= blog.author %> on <%= blog.issuetime %> </span></p>
   </div>
-  </div>
-  <img id="my_img" src="<%= blog.img %>" alt="blog_img">
-  <br>
-  <p> <%= blog.title %></p>
-  <br>
-  <p> Date: <%= blog.issuetime %></p>
-  <br>
-  <p> Author: <%= blog.author %></p>
-  <br>
-  <p> Category: <%= blog.category %></p>
-  <br>
-  <p id="entry">  "<%= blog.entry %>"</p>
-
-  <br>
+      <br>
+  <p id="entry"><%= blog.entry %></p>
+      <br>
 
   <div id='buttons'>
-  <a href="/blogs/<%= blog.id %>/edit"> Edit Post </a>
-  <form action="/blogs/<%= blog.id %>?_method=Delete" method="Post">
-   <a> <input id='delete' type="Submit" value="Delete"/></a>
-  </form>
-  <a href='/blogs/'>See all Articles</a>
+    <a id='lined' href="/blogs/<%= blog.id %>/edit"> Edit Post </a>
+    <form action="/blogs/<%= blog.id %>?_method=Delete" method="Post">
+    <a> <input id='delete' type="Submit" value="Delete"/></a>
+    </form>
+    <a id='lined'href='/blogs/'>See all Articles</a>
   </div>
+</div>
+
+<div class="connect">
+  <hr class="small-hr">
+   <p><span class="connect-title-spans">Connect with us! </span><br>
+
+<div class="spanner">Subscribe</span> </p></div>
+
+<div class="connect-icons-container">
+      <a href="https://www.instagram.com/_thegoodsweat_/">
+     <img class="connect-icons" src="https://i.imgur.com/TxUvsbT.png"/>
+     </a>
+
+     <a href="https://twitter.com/thegoodsweat">
+     <img class="connect-icons" src="https://i.imgur.com/dh64E2x.png"/>
+     </a>
+     <a href="mailto:sarahlund@sclund.com">
+     <img class="connect-icons" src="https://i.imgur.com/ltY8EJA.png"/>
+     </a>
+
+</div>
+<hr class="small-hr">
 </div>
 
 
 
 
+
+
+
 <% include ../partials/footer %>
+
+

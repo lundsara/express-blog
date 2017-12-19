@@ -6,7 +6,6 @@ height: infinite;
 overflow-y: auto;
 z-index: 500;
 font-size: 20px;
-color: rgba(0,0,0,0.54);
 min-height: 1000px;
 text-align: center;
 margin: 0 auto;
@@ -15,6 +14,7 @@ margin: 0 auto;
 li {
 
   list-style-type: none;
+  color: black;
 
 }
 ul{
@@ -49,7 +49,7 @@ header {
   width: 100%;
   white-space: nowrap;
   display: block;
-  min-height: 5%;
+  max-height: 5%;
   margin: auto;
   padding: 2% 3%;
   background-color: white;
@@ -57,12 +57,14 @@ header {
   z-index: 500;
   font-family: 'Rubik', sans-serif;
   font-weight: 100;
-  color: grey;
-
-
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.08;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
 }
 footer {
-  position: fixed;
+
   bottom: 0;
   width: 100%;
   max-height: 2%;
@@ -70,9 +72,8 @@ footer {
   color: black;
   padding: 2% 3%;
   background-color: white;
- font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 20px;
-  color: #ff5e53;
   margin: 0 auto;
   text-align: center;
 }
@@ -84,8 +85,7 @@ margin-top:-140px;
 #title {
   margin-top: -10px;
   font-size: 50px;
-  color: #f5e3e7;
-  font-weight: 100;
+  color: black;
   text-transform: uppercase;
    font-style: italic;
 
@@ -102,11 +102,14 @@ margin-top:-140px;
 
 
 }
+.menu{
+  margin-top: 35px;
+}
 
 #menu{
-  margin-top: 220px;
+  margin-top: 320px;
   font-size: 30px;
-  color: grey;
+  color: black;
   font-weight: 100;
   text-transform: uppercase;
   font-style: italic;
@@ -115,8 +118,12 @@ margin-top:-140px;
   padding: 100px;
 }
   .icons {
-  padding: 10px 60px 10px 1px;
-  margin-top: -20px;
+  padding: 10px 20px 10px 0px;
+  margin-top: 10px;
+  text-decoration: none;
+  height: 20px;
+  width: 20px;
+  margin-bottom: 20px;
 }
   #contact{
   height: 400px;
@@ -127,11 +134,6 @@ margin-top:-140px;
   margin-bottom: 200px;
 
  }
-
-a:hover{
-
-  text-decoration: underline;
-}
 
 
   #about{
@@ -144,15 +146,12 @@ a:hover{
 
  }
  p{
-  font-size: 30px;
-  font-style: italic;
   font-weight: 100;
  }
 
 .dropdown {
     position: relative;
     display: inline-block;
-
 }
 
 .dropdown-content {
@@ -292,11 +291,7 @@ textarea{
 
   margin-top: 300px;
 }
-.blog{
-  height: 100%;
 
-
-}
 
 #my_img{
     max-width: 50%;
@@ -306,7 +301,7 @@ textarea{
 #entry{
   color: black;
   font-size: 20px;
-  padding: 200px;
+  padding: 40px;
   text-align: left;
   line-height: 2;
   padding-top: 0px;
@@ -314,28 +309,166 @@ textarea{
 
 #container{
 
-  margin-top: 100px;
+margin-top: 100px;
 
 }
 
 #buttons{
-  margin-top: -200px;
+  margin-top: 0px;
 }
 
 .list{
+  float: left;
   height: 100%;
   margin-bottom: 300px;
+  margin-left: -100px;
 }
 a{
   color: rgba(0,0,0,0.54);
 }
 #delete{
-  font-family: 'Rubik', sans-serif;
-    background:none;
-  border:none;
-  box-shadow: none;
-  text-decoration: underline;
+font-family: 'Rubik', sans-serif;
+background:none;
+border:none;
+box-shadow: none;
+text-decoration: underline;
 padding: 0;
 margin-top: -18px;
+color:rgba(0,0,0,0.54);
+}
+
+span{
+  font-size: 18px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.line{
+  font-size: 14px;
+  color: black;
+}
+.line:hover{
+  text-decoration: underline;
+}
+
+#lined{
+  text-decoration: underline;
+}
+.small-hr{
+  background-color: black;
+  height: .5px;
+  width: 50%;
+}
+
+.big-hr{
+  background-color: black;
+  height: .25px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
 
 }
+.blog-title{
+margin-left: 25%;
+text-align: left;
+}
+.blog-subtitle{
+  margin-left: 25%;
+text-align: left;
+font-size: 18px;
+}
+
+.list-container{
+  float: left;
+  font-size: 18px;
+  margin-left: 100px;
+
+}
+.icons-container{
+  float: right;
+  margin-right: 120px;
+}
+.footer-spans{
+  padding: 0px 30px 0px 0px;
+}
+
+.top-picks{
+
+  max-width: 35%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 60px;
+
+}
+#temp{
+  margin-top: 100px;
+  text-align: left;
+  margin-left: 200px;
+}
+
+#page-container{
+  margin-top: 150px;
+
+}
+.column-title{
+  margin-right: 70px;
+
+}
+.sub-title{
+  text-align: left;
+}
+
+.single-view{
+  float: left;
+  width: 70%;
+  margin-bottom: 300px;
+}
+.title-spans{
+  padding: 0px 30px 0px 0px;
+  font-style: italic;
+  margin-top: 60px;
+
+}
+
+.connect{
+
+  max-width: 30%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-end;
+
+}
+.connect-title-spans{
+   font-style: italic;
+   margin-right: 120px;
+   padding-top: 120px;
+
+
+}
+.connect-icons-container{
+  margin-right: 120px;
+  margin-top: 20px;
+}
+
+.spanner{
+   margin-right: 150px;
+   margin-top: 20px;
+}
+
+.connect-icons{
+  padding: 10px 20px 10px 0px;
+  margin-top: 20px;
+  text-decoration: none;
+  height: 20px;
+  width: 20px;
+
+}
+

@@ -3,4 +3,30 @@
 
 <p> Browse Beauty News </p>
 
-<% include ../partials/footer %>
+
+<main>
+
+<div class="list">
+
+
+    <% for (let blogs of blog) { %>
+    <div class='blog_snippet'>
+    <br>
+    <img id="my_img" src="<%= blogs.img %>" alt="blog_img">
+      <p> <%= blogs.title %></p>
+      <br>
+      <a href='/blogs/<%= blogs.id%>'>Read More!</a>
+    </div>
+  <% } %>
+
+  </div>
+
+
+
+
+
+  <% include ../partials/footer %>
+
+  </main>
+</body>
+</html>

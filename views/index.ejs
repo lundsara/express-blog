@@ -9,22 +9,17 @@
   <a id='welcomea' href="/blogs/new">Add Your Post</a>
   </div>
 
+<div class="list">
 
-  <% for (let blogs of data) { %>
-    <div class='blog'>
+
+    <% for (let blogs of blog) { %>
+    <div class='blog_snippet'>
     <br>
-      <p> "<%= blog.title %>"</p>
+    <img id="my_img" src="<%= blogs.img %>" alt="blog_img">
+      <p> <%= blogs.title %></p>
       <br>
-      <a href='/blogs/<%= blog.id%>'>Read more!</a>
+      <a href='/blogs/<%= blogs.id%>'>Read More!</a>
     </div>
   <% } %>
 
-
-
-
-
-  <% include ../partials/footer %>
-
-  </main>
-</body>
-</html>
+  </div>
