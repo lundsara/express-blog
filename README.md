@@ -1,7 +1,7 @@
 # Blog Application (In Development)
 
 ## Addition of Newletter Subscribe Form
-![screenshot](https://imgur.com/a/Uyrpf.png)
+![screenshot](https://i.imgur.com/jFsgrpb.png)
 ## Single View
 ![screenshot](https://i.imgur.com/ulZ8Ftm.png)
 ## List View
