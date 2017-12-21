@@ -16,6 +16,11 @@ module.exports = {
      blog: res.locals.blogs,
     });
   },
+    showAbout(req, res) {
+    res.render('blogs/blogs-about', {
+
+  });
+},
 
 //method to produce view of blogs
   showBlogs(req, res) {

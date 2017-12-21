@@ -18,6 +18,13 @@ module.exports = {
        WHERE id = $1
     `, id);
   },
+   findByBeautyCategory(blog) {
+    return db.many(`
+      SELECT *
+        FROM blog
+       WHERE category = Beauty
+    ` );
+  },
 
 
   create(blog) {

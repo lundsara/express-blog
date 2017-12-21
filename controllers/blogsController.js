@@ -30,9 +30,19 @@ module.exports = {
       .catch(err => next(err));
   },
 
+
 //method to pull out a single blog post
   getOne(req, res, next) {
     blogDB.findById(req.params.id)
+      .then((blog) => {
+        res.locals.blog = blog;
+        next();
+      })
+      .catch(err => next(err));
+  },
+  //method to pull out a single blog post
+  getBeauty(req, res, next) {
+    blogDB.findByBeautyCategory(req.params.category)
       .then((blog) => {
         res.locals.blog = blog;
         next();

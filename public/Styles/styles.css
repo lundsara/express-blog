@@ -540,3 +540,30 @@ max-width: 50%;
 margin-bottom: -200px;
 }
 
+.about{
+  margin-top: 15%;
+
+}
+
+#about-image{
+  height: 10%;
+  width: 10%;
+  float: left;
+  margin-left: 22%;
+  margin-bottom: 40%;
+
+}
+#about-description{
+  float: right;
+  width: 40%;
+  margin-right: 22%;
+}
+
+.mc-about{
+margin-left: 20%;
+margin-top: 0px;
+max-width: 50%;
+margin-bottom: 100px;
+}
+
+
