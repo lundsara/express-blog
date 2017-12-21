@@ -490,6 +490,15 @@ max-width: 70%;
   box-shadow: none;
   color: black;
   margin-right: 120px;
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
 
 
 }
@@ -505,9 +514,29 @@ max-width: 70%;
   margin-right: 80px;
 }
 #triangles{
-  margin-right: 170px;
+  margin-right: 175px;
 }
 .submit-subscribe{
   margin-left: 30px;
+
+}
+
+input{
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+}
+
+.mc-index{
+margin-left: 50%;
+margin-top: 300px;
+max-width: 50%;
+margin-bottom: -200px;
 }
 
