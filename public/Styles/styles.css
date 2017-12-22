@@ -566,4 +566,30 @@ max-width: 50%;
 margin-bottom: 100px;
 }
 
+.health{
+  margin-top: 170px;
+}
 
+.beauty{
+  margin-top: 170px;
+}
+
+.fitness{
+  margin-top: 170px;
+}
+
+#beauty-title{
+font-size: 40px;
+margin-left: -60%;
+}
+
+#fitness-title{
+font-size: 40px;
+margin-left: -60%;
+}
+
+#health-title{
+font-size: 40px;
+margin-left: -60%;
+
+}

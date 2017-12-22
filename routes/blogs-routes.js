@@ -8,13 +8,21 @@ blogsRouter.get('/:id/edit', controller.getOne, views.showEditForm, views.show40
 blogsRouter.get('/new', views.showAddForm);
 blogsRouter.get('/about', views.showAbout);
 
+blogsRouter.route('/beauty')
+.get(controller.getBeauty, views.showBeautyBlogs);
+
+blogsRouter.route('/health')
+.get(controller.getHealth, views.showHealthBlogs);
+
+blogsRouter.route('/fitness')
+.get(controller.getFitness, views.showFitnessBlogs);
+
 blogsRouter.route('/:id')
 .get(controller.getOne, views.showOne, views.show404)
 .put(controller.update, views.handleUpdate, views.show406)
 .delete(controller.destroy, views.handleDelete, views.show406);
 
-blogsRouter.route('/beauty')
-.get(controller.getBeauty, views.showBeautyBlogs, views.show404);
+
 
 blogsRouter.route('/')
 .get(controller.index, views.showBlogs, views.show404)

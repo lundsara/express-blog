@@ -43,8 +43,24 @@ module.exports = {
   //method to pull out a single blog post
   getBeauty(req, res, next) {
     blogDB.findByBeautyCategory(req.params.category)
-      .then((blog) => {
-        res.locals.blog = blog;
+      .then((blogs) => {
+        res.locals.blogs = blogs;
+        next();
+      })
+      .catch(err => next(err));
+  },
+   getFitness(req, res, next) {
+    blogDB.findByFitnessCategory(req.params.category)
+      .then((blogs) => {
+        res.locals.blogs = blogs;
+        next();
+      })
+      .catch(err => next(err));
+  },
+   getHealth(req, res, next) {
+    blogDB.findByHealthCategory(req.params.category)
+      .then((blogs) => {
+        res.locals.blogs = blogs;
         next();
       })
       .catch(err => next(err));

@@ -22,10 +22,23 @@ module.exports = {
     return db.many(`
       SELECT *
         FROM blog
-       WHERE category = Beauty
+       WHERE category = 'Beauty'
     ` );
   },
-
+  findByFitnessCategory(blog) {
+    return db.many(`
+      SELECT *
+        FROM blog
+       WHERE category = 'Fitness'
+    ` );
+  },
+    findByHealthCategory(blog) {
+    return db.many(`
+      SELECT *
+        FROM blog
+       WHERE category = 'Health'
+    ` );
+  },
 
   create(blog) {
     return db.one(`
