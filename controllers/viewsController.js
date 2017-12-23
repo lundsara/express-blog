@@ -21,6 +21,11 @@ module.exports = {
 
   });
 },
+   showContact(req, res) {
+    res.render('blogs/blogs-contact', {
+
+  });
+},
 
 //method to produce view of blogs
   showBlogs(req, res) {
@@ -45,7 +50,7 @@ module.exports = {
   },
     showFitnessBlogs(req, res) {
     console.log('in showBlogs function');
-     res.render('blogs/blogs-sweat', {
+     res.render('blogs/blogs-fitness', {
       blog: res.locals.blogs,
     });
   },

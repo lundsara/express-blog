@@ -1,16 +1,17 @@
 <% include ../partials/boilerplate %>
 <% include ../partials/header.ejs %>
+<div class="health">
 
-<div class="fitness">
-
-<p id="fitness-title">SWEAT</p>
+<p id="health-title">SWEAT &#9788</p>
 
 
 <main>
 
 <div class="list">
 
-    <% for (let blogs of blog) { %>
+
+  <%  for (let blogs of blog){ %>
+
     <div class='blog_snippet'>
     <br>
     <img id="my_img" src="<%= blogs.img %>" alt="blog_img">
@@ -20,9 +21,9 @@
     <hr class="small-hr">
     </div>
   <% } %>
-  </div>
-  </div>
 
+  </div>
+  </div>
 
 
 
@@ -33,4 +34,3 @@
   </main>
 </body>
 </html>
-

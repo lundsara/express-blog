@@ -7,6 +7,7 @@ const blogsRouter = express.Router();
 blogsRouter.get('/:id/edit', controller.getOne, views.showEditForm, views.show404);
 blogsRouter.get('/new', views.showAddForm);
 blogsRouter.get('/about', views.showAbout);
+blogsRouter.get('/contact', views.showContact);
 
 blogsRouter.route('/beauty')
 .get(controller.getBeauty, views.showBeautyBlogs);
