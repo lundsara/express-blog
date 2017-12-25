@@ -26,6 +26,11 @@ module.exports = {
 
   });
 },
+ showSubscribe(req, res) {
+    res.render('blogs/blogs-subscribe', {
+
+  });
+},
 
 //method to produce view of blogs
   showBlogs(req, res) {

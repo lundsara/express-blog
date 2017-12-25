@@ -15,7 +15,7 @@
     <% for (let blogs of blog) { %>
     <div class='blog_snippet'>
     <br>
-    <img id="my_img" src="<%= blogs.img %>" alt="blog_img">
+    <a href='/blogs/<%= blogs.id%>'><img id="my_img" src="<%= blogs.img %>" alt="blog_img"></a>
       <p> <%= blogs.title %></p>
       <br>
       <a href='/blogs/<%= blogs.id%>'>Read More!</a>

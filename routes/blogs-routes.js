@@ -8,6 +8,7 @@ blogsRouter.get('/:id/edit', controller.getOne, views.showEditForm, views.show40
 blogsRouter.get('/new', views.showAddForm);
 blogsRouter.get('/about', views.showAbout);
 blogsRouter.get('/contact', views.showContact);
+blogsRouter.get('/subscribe', views.showSubscribe);
 
 blogsRouter.route('/beauty')
 .get(controller.getBeauty, views.showBeautyBlogs);

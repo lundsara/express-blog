@@ -1,25 +1,8 @@
 <% include ../partials/boilerplate %>
 <% include ../partials/header.ejs %>
 
-<main>
-<div id="page-container">
-
-
-<div class="list">
-
-
-    <% for (let blogs of blog) { %>
-    <div class='blog_snippet'>
-    <br>
-    <a  class="line" href='/blogs/<%= blogs.id%>'><img id="my_img" src="<%= blogs.img %>" alt="blog_img"></a>
-      <a  class="line" href='/blogs/<%= blogs.id%>'><p class="blog-title"> <%= blogs.title %></p></a>
-      <a href='/blogs/<%= blogs.category%>'><p class="blog-subtitle"> <%= blogs.category %></a>
-      <a  class="line" href='/blogs/<%= blogs.id%>'>| READ MORE></a></p>
-    <hr class="small-hr">
-    </div>
-  <% } %>
-
-   <div class="mc-index">
+<div class="sub-page">
+<div class="mc-about">
 
 
 <!-- Begin MailChimp Signup Form -->
@@ -60,30 +43,11 @@
 
   </div>
    </div>
-
-  <div class="top-picks">
-  <p class="column-title">Top Posts &#9733</p>
-      <% for (let blogs of blog) { %>
-    <div class='blog_snippet'>
-    <br>
-    <a  class="line" href='/blogs/<%= blogs.id%>'><img id="my_img" src="<%= blogs.img %>" alt="blog_img"></a>
-      <a  class="line" href='/blogs/<%= blogs.id%>'><p class="blog-title"> <%= blogs.title %></p></a>
-      <p class="blog-subtitle"> <%= blogs.category %>
-      <a  class="line" href='/blogs/<%= blogs.id%>'>| READ></a></p>
-    <hr class="small-hr">
-    </div>
-  <% } %>
-
-  </div>
-  </div>
+   </div>
 
 
 
 
 
 
-  <% include ../partials/footer %>
-
-  </main>
-</body>
-</html>
+<% include ../partials/footer %>
