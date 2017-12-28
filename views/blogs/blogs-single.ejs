@@ -9,16 +9,27 @@
       <%= blog.title %>
     </div>
       <br>
-    <img id="my_img" src="<%= blog.img %>" alt="blog_img">
+    <img id="my_img" src="<%= blog.img_1 %>" alt="blog_img">
       <br>
   <div class="blog-subtitle">
     <span class="sub"> By <%= blog.author %> on <%= blog.issuetime %> </span></p>
   </div>
       <br>
-  <p id="entry"><%= blog.entry %></p>
+  <p id="entry"><%= blog.p_1 %></p>
+  <img id="my_img" src="<%= blog.img_2 %>" alt="blog_img">
+  <p id="entry"><%= blog.p_2 %></p>
+  <p id="quote"><%= blog.quote_1 %></p>
+  <p id="entry"><%= blog.p_3 %></p>
+  <img id="my_img" src="<%= blog.img_3 %>" alt="blog_img">
+  <p id="entry"><%= blog.p_4 %></p>
+  <p id="quote"><%= blog.quote_2 %></p>
+  <p id="entry"><%= blog.p_5 %></p>
       <br>
 
+  <p id="tags"> Tags: <%= blog.tag_1 %>, <%= blog.tag_2 %>, <%= blog.tag_3 %>, <%= blog.tag_4 %>, <%= blog.tag_5 %></p>
+
   <div id='buttons'>
+
 
     <a id='lined'href='/blogs/'>See all Articles</a>
   </div>

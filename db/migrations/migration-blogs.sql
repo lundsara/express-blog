@@ -3,10 +3,28 @@
 CREATE TABLE IF NOT EXISTS blog (
   id SERIAL PRIMARY KEY,
   title TEXT,
-  img VARCHAR(255),
+  subtitle TEXT,
+  img_1 TEXT,
+  img_2 TEXT,
+  img_3 TEXT,
   issuetime VARCHAR(255),
-  category VARCHAR(255),
-  author VARCHAR(255),
-  entry TEXT
-
+  category TEXT,
+  author VARCHAR (255),
+  quote_1 TEXT,
+  quote_2 TEXT,
+  p_1 TEXT,
+  p_2 TEXT,
+  p_3 TEXT,
+  p_4 TEXT,
+  p_5 TEXT,
+  link_1 TEXT,
+  link_2 TEXT,
+  link_3 TEXT,
+  link_4 TEXT,
+  link_5 TEXT,
+  tag_1 VARCHAR(255),
+  tag_2 VARCHAR(255),
+  tag_3 VARCHAR(255),
+  tag_4 VARCHAR(255),
+  tag_5 VARCHAR(255)
 );
