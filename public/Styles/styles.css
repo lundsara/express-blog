@@ -44,7 +44,7 @@ nav ul li a {
   color: rgba(0,0,0,0.54);
 }
 header {
-  position: fixed;
+
   top: 0;
   width: 100%;
   white-space: nowrap;
@@ -57,11 +57,7 @@ header {
   z-index: 500;
   font-family: 'Rubik', sans-serif;
   font-weight: 100;
-     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    filter: alpha(opacity=80);
-    -moz-opacity: 0.08;
-    -khtml-opacity: 0.8;
-    opacity: 0.8;
+
 }
 footer {
 
@@ -79,15 +75,16 @@ footer {
 }
 
 nav{
-margin-left: 60%;
-margin-top:-140px;
+margin-left: 68%;
+margin-top:-80px;
 }
 #title {
-  margin-top: -10px;
+  margin-top: 0px;
   font-size: 50px;
   color: black;
   text-transform: uppercase;
-   font-style: italic;
+  font-style: italic;
+  margin-right: 60%;
 
 }
 
@@ -149,25 +146,6 @@ margin-top:-140px;
   font-weight: 100;
  }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    background-color: #f9f9f9;
-    min-width: 60px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 1px;
-    z-index: 1;
-    font-size: 15px;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
 
 #sweat{
 
@@ -177,7 +155,6 @@ margin: 0 auto;
 width: 100%;
 
 }
-
 
 
 #temporary {
@@ -448,6 +425,7 @@ font-style: italic;
   float: left;
   width: 70%;
   margin-bottom: 300px;
+  margin-top: -110px;
 }
 .title-spans{
   padding: 0px 30px 0px 0px;
@@ -457,15 +435,12 @@ font-style: italic;
 }
 
 .connect{
-
-
   height: 100%;
   padding: 20px;
   display: flex;
   position: relative;
   flex-direction: column;
   align-items: flex-end;
-
 
 }
 .connect-title-spans{
@@ -476,7 +451,7 @@ font-style: italic;
 
 }
 .connect-icons-container{
-max-width: 70%;
+  max-width: 70%;
   margin-top: 20px;
   margin-right: 120px;
 }
@@ -603,6 +578,7 @@ margin-bottom: 100px;
 #beauty-title{
 font-size: 40px;
 margin-left: -60%;
+margin-top: -100px;
 }
 
 #fitness-title{
@@ -613,6 +589,7 @@ margin-left: -60%;
 #health-title{
 font-size: 40px;
 margin-left: -60%;
+margin-top: -100px;
 
 }
 .contact-links{
@@ -643,3 +620,20 @@ margin-left: -60%;
 }
 .link:hover{
   text-decoration: underline;
+}
+.mini-title{
+  max-width: 40%;
+  font-size: 17px;
+  font-style: italic;
+  text-align: left;
+  margin-left: 25%;
+
+}
+
+.header-hr{
+
+}
+
+.blog_snippet{
+
+}
