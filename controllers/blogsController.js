@@ -85,33 +85,7 @@ module.exports = {
       .catch(err => next(err));
   },
 
-//method to create blog post
-  create(req, res, next) {
-    console.log('here');
-    blogDB.create(req.body)
-      .then((blog) => {
-        res.locals.blog = blog;
-        next();
-      })
-      .catch(err => next(err));
-  },
 
-//method to update blog posts
-  update(req, res, next) {
-    blogDB.update(req.body, req.params.id)
-      .then((blog) => {
-        res.locals.blog = blog;
-        next();
-      })
-      .catch(err => next(err));
-  },
-
-//method to destroy posts
-  destroy(req, res, next) {
-    blogDB.destroy(req.params.id)
-      .then(() => next())
-      .catch(err => next(err));
-  },
 
 
 //method to show blog form

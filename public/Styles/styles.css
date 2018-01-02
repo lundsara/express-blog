@@ -27,6 +27,7 @@ nav ul {
   display: flex;
   margin: 20px;
   list-style-type: none;
+  color: black;
 }
 
 nav ul li {

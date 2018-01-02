@@ -4,8 +4,7 @@ const views = require('../controllers/viewsController');
 const blogsRouter = express.Router();
 
 
-blogsRouter.get('/:id/edit', controller.getOne, views.showEditForm, views.show404);
-blogsRouter.get('/new', views.showAddForm);
+
 blogsRouter.get('/about', views.showAbout);
 blogsRouter.get('/contact', views.showContact);
 blogsRouter.get('/subscribe', views.showSubscribe);
@@ -21,14 +20,13 @@ blogsRouter.route('/fitness')
 
 blogsRouter.route('/:id')
 .get(controller.getOne, views.showOne, views.show404)
-.put(controller.update, views.handleUpdate, views.show406)
-.delete(controller.destroy, views.handleDelete, views.show406);
+
 
 
 
 blogsRouter.route('/')
 .get(controller.index, views.showBlogs, views.show404)
-.post(controller.create, views.handleCreate, views.show406);
+
 
 
 
