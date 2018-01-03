@@ -4,25 +4,25 @@
 <div id="page-container">
 <div class='single-view'>
 
-    <div class="blog-title">
+    <div class="single-blog-title">
       <p><a href="/blogs/">MAIN</a>//<%= blog.category %>/<%= blog.title %></p>
       <%= blog.title %>
     </div>
       <br>
-    <img id="my_img" src="<%= blog.img_1 %>" alt="blog_img">
+    <img class="entry_img" src="<%= blog.img_1 %>" alt="blog_img">
       <br>
-  <div class="blog-subtitle">
+  <div class="single-blog-subtitle">
     <span class="sub"> By <%= blog.author %> on <%= blog.issuetime %> </span></p>
   </div>
       <br>
   <p id="entry"><%= blog.p_1 %></p>
-  <img id="my_img" src="<%= blog.img_2 %>" alt="blog_img">
+  <img class="entry_img" src="<%= blog.img_2 %>" alt="blog_img">
   <br/>
   <a class="link" href="<%= blog.link_1 %>"> Check it out here</a>
   <p id="entry"><%= blog.p_2 %></p>
   <p id="quote"><%= blog.quote_1 %></p>
   <p id="entry"><%= blog.p_3 %></p>
-  <img id="my_img" src="<%= blog.img_3 %>" alt="blog_img">
+  <img class="entry_img" src="<%= blog.img_3 %>" alt="blog_img">
   <br/>
   <a class="link" href="<%= blog.link_2 %>"> Check it out here</a>
   <p id="entry"><%= blog.p_4 %></p>
