@@ -6,7 +6,7 @@ const options = {
 
 //require pg promise dependency for the app
 const pgp = require('pg-promise')(options);
-const DATABASE_URL = postgres://nlacyfoedjcjnv:64179f02a6ffb79ce63824a61867de2d036e1c1d8a3a6c915d2de4469815b9a9@ec2-107-22-183-40.compute-1.amazonaws.com:5432/d5lqcn3m8ob61b
+const DATABASE_URL = 'postgres://nlacyfoedjcjnv:64179f02a6ffb79ce63824a61867de2d036e1c1d8a3a6c915d2de4469815b9a9@ec2-107-22-183-40.compute-1.amazonaws.com:5432/d5lqcn3m8ob61b'
 
 let db;
 //require pg promise dependency for the app
