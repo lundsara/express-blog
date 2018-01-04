@@ -24,7 +24,7 @@ blogsRouter.route('/:id')
 
 
 
-blogsRouter.route('/')
+blogsRouter.route('/blogs')
 .get(controller.index, views.showBlogs, views.show404)
 
 
