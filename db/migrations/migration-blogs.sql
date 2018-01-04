@@ -1,4 +1,4 @@
-\c blogs_dev;
+
 
 CREATE TABLE IF NOT EXISTS blog (
   id SERIAL PRIMARY KEY,
