@@ -7,7 +7,6 @@ const options = {
 //require pg promise dependency for the app
 const pgp = require('pg-promise')(options);
 
-
 let db;
 //require pg promise dependency for the app
 if (process.env.NODE_ENV === 'development' || !process.env.NODE_ENV) {
