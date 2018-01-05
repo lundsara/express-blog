@@ -47,7 +47,7 @@ nav ul li a {
 header {
 
   top: 0;
-  width: 100%;
+  width: 80%;
   white-space: nowrap;
   display: block;
   max-height: 5%;
@@ -276,7 +276,7 @@ a{
 .big-hr{
   background-color: black;
   height: .25px;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   text-align: center;
 
@@ -578,10 +578,7 @@ font-size: 20px;
 
 
 @media only screen and (max-width: 500px) {
-  body {
 
-      width: 100%;
-  }
 
   body{
 margin-top: 200px;
@@ -767,8 +764,6 @@ input {
   border: none;
 }
 
-
-
 .review {
   width: 800px;
   text-align: center;
@@ -819,10 +814,7 @@ input {
 
 #container{
 margin-top: 100px;
-
 }
-
-
 
 .list{
   float: left;
