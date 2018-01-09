@@ -74,6 +74,9 @@ footer {
   margin: 0 auto;
   text-align: center;
 }
+.footer-menu{
+  margin-top: 0px;
+}
 
 nav{
 margin-left: 68%;
@@ -394,7 +397,6 @@ font-style: italic;
   text-decoration: none;
   height: 20px;
   width: 20px;
-
 
 }
 
