@@ -602,13 +602,13 @@ li {
 ul{
 
   list-style-type: none;
-  margin-left: -20px;
+  margin-left: -40px;
 
 }
 
 nav ul {
   display: flex;
-  margin: 5px;
+  margin: 3px;
   list-style-type: none;
   color: black;
 }
@@ -880,7 +880,7 @@ font-style: italic;
 .list-container{
 
   font-size: 8px;
-  margin-left: 2px;
+  margin-left: 12px;
 
 }
 .icons-container{
@@ -1107,7 +1107,7 @@ margin-top: -120px;
 }
 
 .mc-index{
-margin-left: 50%;
+margin-left: 0%;
 margin-top: 300px;
 max-width: 80%;
 margin-bottom: -200px;
