@@ -669,6 +669,8 @@ nav{
   color: black;
   text-transform: uppercase;
   font-style: italic;
+  text-align: center;
+  margin: 0 auto;
 }
 
 
@@ -846,7 +848,7 @@ span{
 .big-hr{
   background-color: black;
   height: .25px;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   text-align: center;
 
