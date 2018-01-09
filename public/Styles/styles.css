@@ -611,10 +611,11 @@ nav ul {
   margin: 3px;
   list-style-type: none;
   color: black;
+  margin-left: -40px;
 }
 
 nav ul li {
-  padding: 15px;
+  padding: 8px;
   font-size: .8em;
   letter-spacing: 1px;
   list-style-type: none;
