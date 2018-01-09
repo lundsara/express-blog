@@ -428,8 +428,6 @@ font-style: italic;
   display: inline-block;
   text-align: start;
   width: 100%;
-
-
 }
 
 .required{
@@ -862,9 +860,12 @@ span{
 
 }
 .blog-title{
-margin-left: 25%;
+margin: 0 auto;
 text-align: left;
-font-size: 16px;
+max-width: 50%;
+font-size: 13px;
+}
+
 }
 .blog-title-side{
 margin: 0 auto;
@@ -879,7 +880,7 @@ font-size: 15px;
 .blog-subtitle{
 margin-left: 25%;
 text-align: left;
-font-size: 18px;
+font-size: 13px;
 font-style: italic;
 }
 
@@ -1117,6 +1118,25 @@ margin-left: 50%;
 margin-top: 300px;
 max-width: 80%;
 margin-bottom: -200px;
+}
+
+#mc-embedded-subscribe{
+  margin-top: 20px;
+  background-color: white;
+  font-style: italic;
+  box-shadow: none;
+  color: black;
+  margin-right: 30px;
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  width: 100%;
 }
 
 }
