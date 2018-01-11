@@ -295,7 +295,7 @@ font-size: 20px;
 .blog-title-side{
 margin: 0 auto;
 text-align: left;
-max-width: 75%;
+max-width: 90%;
 font-size: 15px;
 }
 .blog-subtitle{
@@ -343,7 +343,7 @@ font-style: italic;
 
 }
 .column-title{
-  margin-right: 120px;
+  margin-right: 20px;
 
 }
 .sub-title{
