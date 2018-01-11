@@ -200,7 +200,13 @@ width: 100%;
 }
 
 
-#my_img{
+#my_small_img{
+    max-width: 60%;
+    height: auto;
+    margin-left: 10px;
+}
+
+#my_small_img{
     max-width: 500px;
     height: auto;
     margin-left: 10px;
