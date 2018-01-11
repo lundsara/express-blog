@@ -288,7 +288,7 @@ a{
 
 }
 .blog-title{
-margin-left: 25%;
+margin-left: 7%;
 text-align: left;
 font-size: 20px;
 }
@@ -299,9 +299,9 @@ max-width: 90%;
 font-size: 15px;
 }
 .blog-subtitle{
-margin-left: 25%;
+margin-left: 5%;
 text-align: left;
-font-size: 18px;
+font-size: 13px;
 font-style: italic;
 }
 
