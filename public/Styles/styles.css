@@ -263,7 +263,7 @@ a{
   color: black;
 }
 .line{
-  font-size: 14px;
+  font-size: 13px;
   color: black;
 }
 .line:hover{
@@ -276,7 +276,7 @@ a{
 .small-hr{
   background-color: black;
   height: .2px;
-  width: 50%;
+  width: 90%;
 }
 
 .big-hr{
@@ -299,9 +299,9 @@ max-width: 90%;
 font-size: 15px;
 }
 .blog-subtitle{
-margin-left: 5%;
+margin-left: 7%;
 text-align: left;
-font-size: 13px;
+font-size: 14px;
 font-style: italic;
 }
 
