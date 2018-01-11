@@ -282,7 +282,7 @@ a{
 
 }
 .blog-title{
-margin-left: 20%;
+margin-left: 25%;
 text-align: left;
 font-size: 20px;
 }
@@ -530,8 +530,8 @@ margin-top: -120px;
 }
 
 .blog_side{
-  margin-right:-80px
-  margin-left: 90%;
+  margin-right: 0px
+  margin-left: 80%;
   max-width: 80%;
 }
 
