@@ -536,7 +536,8 @@ margin-top: -120px;
 }
 
 .blog_snippet{
-  max-width: 100%;
+  max-width: 60%;
+  margin-right: -200px;
 
 }
 .link{
