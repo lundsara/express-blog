@@ -207,7 +207,7 @@ width: 100%;
 }
 
 #my_img{
-    max-width: 500px;
+    max-width: 450px;
     height: auto;
     margin-left: 10px;
 }
@@ -541,7 +541,7 @@ margin-top: -120px;
 }
 
 .blog_snippet{
-  max-width: 70%;
+  max-width: 100%;
   margin-right: -100px;
 
 }
