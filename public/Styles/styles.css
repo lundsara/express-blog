@@ -791,7 +791,7 @@ input {
 }
 
 #my_img{
-    max-width: 25%;
+    max-width: 150px;
     height: auto;
     margin-left: -25%;
 }
