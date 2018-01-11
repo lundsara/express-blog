@@ -578,10 +578,7 @@ font-size: 20px;
 
 
 @media only screen and (max-width: 500px) {
-  body {
 
-      background-color: blue;
-  }
 
   body{
 margin-top: 200px;
@@ -605,18 +602,20 @@ li {
 ul{
 
   list-style-type: none;
+  margin-left: -40px;
 
 }
 
 nav ul {
   display: flex;
-  margin: 5px;
+  margin: 3px;
   list-style-type: none;
   color: black;
+  margin-left: -15px;
 }
 
 nav ul li {
-  padding: 15px;
+  padding: 8px;
   font-size: .8em;
   letter-spacing: 1px;
   list-style-type: none;
@@ -664,7 +663,6 @@ nav{
   margin-top: -40px;
   margin-left: 10px;
 
-
 }
 #title {
   margin-left: 0px;
@@ -673,6 +671,9 @@ nav{
   color: black;
   text-transform: uppercase;
   font-style: italic;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 
@@ -695,8 +696,8 @@ nav{
   padding: 10px 20px 10px 0px;
   margin-top: 10px;
   text-decoration: none;
-  height: 20px;
-  width: 20px;
+  height: 15px;
+  width: 15px;
   margin-bottom: 20px;
 }
   #contact{
@@ -783,15 +784,17 @@ input {
   margin: 0 auto;
   font-size: 15px;
   text-decoration: none;
+
 }
 
 
 #welcome{
+
   margin-top: 300px;
 }
 
 #my_img{
-    max-width: 150px;
+    max-width: 25%;
     height: auto;
     margin-left: -25%;
 }
@@ -813,7 +816,6 @@ input {
 
 #container{
 margin-top: 100px;
-
 }
 
 .list{
@@ -849,15 +851,18 @@ span{
 .big-hr{
   background-color: black;
   height: .25px;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   text-align: center;
 
 }
 .blog-title{
-margin-left: 25%;
+margin: 0 auto;
 text-align: left;
-font-size: 16px;
+max-width: 50%;
+font-size: 13px;
+}
+
 }
 .blog-title-side{
 margin: 0 auto;
@@ -872,14 +877,14 @@ font-size: 15px;
 .blog-subtitle{
 margin-left: 25%;
 text-align: left;
-font-size: 18px;
+font-size: 13px;
 font-style: italic;
 }
 
 .list-container{
 
-  font-size: 12px;
-  margin-left: 2px;
+  font-size: 8px;
+  margin-left: 12px;
 
 }
 .icons-container{
@@ -918,7 +923,8 @@ visibility: hidden;
 .title-spans{
   padding: 0px 30px 0px 0px;
   font-style: italic;
-  margin-top: 60px;
+  margin-top: 100px;
+  margin-bottom: -20px;
 
 }
 
@@ -990,6 +996,8 @@ input{
   display: inline-block;
   text-align: start;
 }
+
+
 
 .about{
   margin-top: 15%;
@@ -1096,10 +1104,39 @@ margin-top: -120px;
   font-size: 15px;
 }
 
+.footer-menu{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
+.mc-index{
+margin-left: 50%;
+margin-top: 300px;
+max-width: 80%;
+margin-bottom: -200px;
+}
 
+#mc-embedded-subscribe{
+  margin-top: 20px;
+  background-color: white;
+  font-style: italic;
+  box-shadow: none;
+  color: black;
+  margin-right: 30px;
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  width: 100%;
+}
 
+}
 
 
 
