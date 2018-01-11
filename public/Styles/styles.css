@@ -278,11 +278,16 @@ a{
   height: .2px;
   width: 90%;
 }
+.smaller-hr{
+  background-color: black;
+  height: .2px;
+  width: 60%;
+}
 
 .big-hr{
   background-color: black;
   height: .25px;
-  width: 60%;
+  width: 90%;
   margin: 0 auto;
   text-align: center;
 
