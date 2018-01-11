@@ -621,7 +621,7 @@ nav ul {
   margin: 5px;
   list-style-type: none;
   color: black;
-  margin-left: -15px;
+  margin-left: -21px;
 }
 
 nav ul li {
@@ -886,13 +886,13 @@ font-style: italic;
 
 .list-container{
 
-  font-size: 12px;
+  font-size: 10px;
   margin-left: 2px;
 
 }
 .icons-container{
   float: right;
-  margin-right: 120px;
+  margin-right: -20px;
 }
 .footer-spans{
   padding: 0px 5px 0px 0px;
