@@ -6,7 +6,7 @@ height: infinite;
 overflow-y: auto;
 z-index: 500;
 font-size: 20px;
-min-height: 1000px;
+
 text-align: center;
 margin: 0 auto;
 
@@ -150,7 +150,7 @@ margin-top:-80px;
 
 #sweat{
 
-height: 1000px;
+
 text-align: center;
 margin: 0 auto;
 width: 100%;
@@ -594,7 +594,7 @@ height: infinite;
 overflow-y: auto;
 z-index: 500;
 font-size: 15px;
-min-height: 1000px;
+
 text-align: center;
 margin: 0 auto;
 
@@ -729,7 +729,6 @@ nav{
 
 #sweat{
 
-height: 1000px;
 text-align: center;
 margin: 0 auto;
 width: 100%;
