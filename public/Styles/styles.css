@@ -886,13 +886,13 @@ font-style: italic;
 
 .list-container{
 
-  font-size: 10px;
+  font-size: 9px;
   margin-left: 2px;
 
 }
 .icons-container{
   float: right;
-  margin-right: -20px;
+  margin-right: 50%;
 }
 .footer-spans{
   padding: 0px 5px 0px 0px;
