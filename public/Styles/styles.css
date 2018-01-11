@@ -621,7 +621,7 @@ nav ul {
   margin: 5px;
   list-style-type: none;
   color: black;
-  margin-left: -21px;
+  margin-left: -30px;
 }
 
 nav ul li {
@@ -676,7 +676,7 @@ nav{
 
 }
 #title {
-  margin-left: 40px;
+  margin-left: 50px;
   margin-top: 0px;
   font-size: 30px;
   color: black;
