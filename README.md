@@ -1,5 +1,8 @@
 # Blog Application (In Development)
 
+[Demo the blog here!](https://good-sweat.herokuapp.com/blogs/)
+
+
 
 ## List View
 ![screenshot](https://i.imgur.com/HkWHfwc.png)
