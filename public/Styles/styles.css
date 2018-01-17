@@ -308,7 +308,7 @@ font-size: 15px;
 margin-left: 7%;
 text-align: left;
 font-size: 15px;
-font-style: italic;
+font-style: itali;
 }
 .blog-subtitle{
 margin-left: 7%;
@@ -874,6 +874,13 @@ span{
 margin-left: 25%;
 text-align: left;
 font-size: 16px;
+max-width: 30%;
+}
+
+.blog-smaller-title{
+margin-left: 25%;
+text-align: left;
+font-size: 13px;
 max-width: 30%;
 }
 .blog-title-side{
