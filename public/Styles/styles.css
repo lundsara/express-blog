@@ -1076,11 +1076,11 @@ margin-top: -120px;
 
 .blog_side{
 
-  max-width: 150%;
+  max-width: 100%;
 }
 
 .blog_snippet{
-  min-width: 150%;
+  min-width: 100%;
 
 }
 .link{
@@ -1134,7 +1134,7 @@ margin-top: -120px;
 
 
   body{
-    max-width: 300px;
+    max-width: 375px;
   }
 
 }
