@@ -1126,6 +1126,7 @@ margin-top: -120px;
 
   body{
     max-width: 320px;
+    max-height: 100%;
   }
 
 }
@@ -1135,6 +1136,7 @@ margin-top: -120px;
 
   body{
     max-width: 375px;
+    max-height: 100%;
   }
 
 }
