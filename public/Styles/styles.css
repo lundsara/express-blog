@@ -596,7 +596,34 @@ font-size: 20px;
 }
 
 
-@media only screen and (max-width: 500px) {
+
+@media only screen and (max-width: 900px) {
+
+
+
+.top-picks{
+visibility: hidden;
+}
+
+nav{
+margin-left: 50%;
+margin-top:-80px;
+
+}
+#title {
+  margin-top: 0px;
+  font-size: 50px;
+  color: black;
+  text-transform: uppercase;
+  font-style: italic;
+  margin-right: 60%;
+
+}
+
+
+}
+
+@media only screen and (max-width: 600px) {
 
 
   body{
@@ -677,8 +704,6 @@ footer {
 nav{
   margin-top: -40px;
   margin-left: 10px;
-
-
 }
 #title {
   margin-left: 28px;
@@ -1118,25 +1143,8 @@ margin-top: -120px;
 
 }
 
-@media only screen and (max-width: 320px) {
 
 
-  body{
-    max-width: 320px;
-    max-height: 100%;
-  }
-
-}
-
-@media only screen and (max-width: 375px) {
-
-
-  body{
-    max-width: 375px;
-    max-height: 100%;
-  }
-
-}
 
 
 
