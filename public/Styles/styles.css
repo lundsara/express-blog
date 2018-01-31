@@ -648,6 +648,30 @@ nav{
 }
 
 
+nav ul {
+  display: flex;
+  margin: 5px;
+  list-style-type: none;
+  color: black;
+  margin-left: -30px;
+}
+
+nav ul li {
+  padding: 15px;
+  font-size: .8em;
+  letter-spacing: 1px;
+  list-style-type: none;
+}
+
+nav ul li a {
+  list-style-type: none;
+  color: black;
+  text-decoration: none;
+  list-style-type: none;
+  color: rgba(0,0,0,0.54);
+}
+
+
 .connect{
 visibility: hidden;
 }
@@ -668,17 +692,7 @@ text-align: center;
 margin: 0 auto;
 
 }
-li {
 
-  list-style-type: none;
-  color: black;
-
-}
-ul{
-
-  list-style-type: none;
-
-}
 
 nav ul {
   display: flex;
