@@ -1,16 +1,13 @@
 # Blog Application (In Development)
 
-[Demo the blog here!](https://good-sweat.herokuapp.com/blogs/)
-
-
 
 ## List View
-![screenshot](https://i.imgur.com/HkWHfwc.png)
+![screenshot](https://i.imgur.com/oIItB3l.png)
 ## Single Views
-![screenshot](https://i.imgur.com/57tCiUX.png)
-![screenshot](https://i.imgur.com/uZZi7DL.png)
+![screenshot](https://i.imgur.com/sDHz5Uo.png)
+![screenshot](https://i.imgur.com/sDHz5Uo.png)
 ## Addition of Newletter Subscribe Form
-![screenshot](https://i.imgur.com/J3jM5x9.png)
+![screenshot](https://i.imgur.com/rm1vOa6.png)
 ## Browse by Category
 ![screenshot](https://i.imgur.com/NYqaorL.png)
 ## Next Steps- search by tag
