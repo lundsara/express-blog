@@ -5,7 +5,9 @@
 ![screenshot](https://i.imgur.com/oIItB3l.png)
 ## Single Views
 ![screenshot](https://i.imgur.com/sDHz5Uo.png)
-![screenshot](https://i.imgur.com/sDHz5Uo.png)
+![screenshot](https://i.imgur.com/wah3QnI.png)
+![screenshot](https://i.imgur.com/rP9qIVY.png)
+
 ## Addition of Newletter Subscribe Form
 ![screenshot](https://i.imgur.com/rm1vOa6.png)
 ## Browse by Category
