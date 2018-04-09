@@ -1,4 +1,4 @@
-# Blog Application (In Development)
+# Blog Application 
 
 
 ## List View
